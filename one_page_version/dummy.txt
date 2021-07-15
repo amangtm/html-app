@@ -1,0 +1,42 @@
+<div class="people-section2-wrapper">
+				<img src="./assets/images/team/team.jpeg" alt="team-member">
+				<div class="people-stats">
+					
+				
+				</div>
+			</div>
+
+
+// css
+.people-section2-wrapper{
+	/* background-color: coral; */
+	display: flex;
+	flex-direction: column;
+}
+.people-section2-wrapper img{
+	width: 800px;
+	margin: 0 auto;
+}
+.people-stats{
+	width: 100vw;
+	height: 200px;
+}
+.people-single-stats-div{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+
+}
+.people-single-stats-item{
+	height: 200px;
+	width: 25vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.people-single-stats-item p{
+	font-size: .7em;
+}
+
+

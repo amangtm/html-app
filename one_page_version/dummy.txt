@@ -1,13 +1,1750 @@
-<div class="people-section2-wrapper">
-				<img src="./assets/images/team/team.jpeg" alt="team-member">
-				<div class="people-stats">
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- META DATA -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		
+		
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+		
+        <!-- TITLE OF SITE -->
+        <title>Zombiz</title>
+
+        <!-- for title img -->
+		<link rel="shortcut icon" type="image/icon" href="assets/images/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		
+		<!--linear icon css-->
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+		
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+		
+		<!--hover.css-->
+        <link rel="stylesheet" href="assets/css/hover-min.css">
+		
+		<!--vedio player css-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+		<!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link href="assets/css/owl.theme.default.min.css" rel="stylesheet"/>
+
+
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link href="assets/css/bootsnav.css" rel="stylesheet"/>	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+		
+		<div style="display: none;">
+		<!--header start-->
+			<section id="home"  class="header">
+					<div class="container">	
+						<div class="header-left">
+							<ul class="pull-left">
+								<li>
+									<a href="#">
+										<i class="fa fa-phone" aria-hidden="true"></i> +992 563 542
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-envelope" aria-hidden="true"></i>info@mail.com
+									</a>
+								</li> 
+							</ul>
+						</div><!--/.header-left -->
+						<div class="header-right pull-right">
+							<ul>
+								<li class="reg">
+									<a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">
+										Register
+									</a>
+										/
+									<a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">
+										Log in
+									</a>
+									
+									<!-- small modal -->
+									<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+										<div class="modal-dialog modal-sm" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">
+															<i class="fa fa-close"></i>
+														</span>
+													</button> 
+													<h4 class="modal-title" id="mySmallModalLabel">
+														Sign In
+													</h4> 
+													<form class="sm-frm" style="padding:25px">
+														<label>Name :</label>
+														<input type="text" class="form-control" placeholder="Enter Email">
+														<label>Passoward :</label>
+														<input type="text" class="form-control" placeholder="Enter Passoward">
+														<label><input type="checkbox" name="personality"> Remenber Me</label>
+														<button type="button" class="btn btn-default pull-right">Submit</button>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<!-- large modal -->
+									<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+										<div class="modal-dialog modal-lg" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">
+															<i class="fa fa-close"></i>
+														</span>
+													</button>  
+													<h4 class="modal-title" id="myLargeModalLabel">Register</h4> 
+													<form class="lg-frm" style="padding:25px">
+														<label>Name :</label>
+														<input type="text" class="form-control" placeholder="Enter Name">
+														<label>Email :</label>
+														<input type="text" class="form-control" placeholder="Enter Email">
+														<label>Passoward :</label>
+														<input type="text" class="form-control" placeholder="Enter Passoward">
+														<button type="button" class="btn btn-default pull-right">Submit</button>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li><!--/li -->
+								<li>
+									<div class="social-icon">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+											<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										</ul><!--/.ul -->
+									</div><!--/.social-icon -->
+								</li><!--/li -->
+							</ul><!--/ul -->
+						</div><!--/.header-right -->
+					</div><!--/.container -->	
+
+			</section> 
+
+	   </div> 
+	   
+		<!-- <button class="menu-button" id="open-button">Open Menu</button> -->
+
+							<!--Site Logo -->
+
+		<!--/.header-->	
+		<!--header end-->
+		<!-- <div class="menu-icon-container" >
+			<div class="menu-icon-items"></div>
+			<div class="menu-icon-items"></div>
+			<div class="menu-icon-items"></div>
+		</div> -->
+		<!--menu start-->
+		<section id="menu" style="display: none;">
+			<div class="container">
+				<div class="menubar">
+					<nav class="navbar navbar-default">
 					
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigations</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<!-- Menu Icon-->
+							
+							<!-- <a class="navbar-brand" href="index.html">
+								<img src="assets/images/logo/logo.png" alt="logo">
+							</a> -->
+						</div><!--/.navbar-header -->
+						
+						
+						
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="smooth-menu">
+									<a href="#home">Home</a>
+								</li>
+								<li class="smooth-menu"><a href="#about">About</a></li>
+								<li class="smooth-menu"><a href="#service">Service</a></li>
+								<li class="smooth-menu"><a href="#project">Project</a></li>
+								<li class="smooth-menu"><a href="#team">Team</a></li>
+								<li class="smooth-menu"><a href="#blog">Blog</a></li>
+								<li class="smooth-menu"><a href="#contact">Contact</a></li>
+								<li>
+									<a href="#">
+										<span class="lnr lnr-cart"></span>
+									</a>
+								</li>
+								<li class="search">
+									<form action="">
+										<input type="text" name="search" placeholder="Search....">
+										<a href="#">
+											<span class="lnr lnr-magnifier"></span>
+										</a>
+									</form>
+								</li>
+							</ul><!-- / ul -->
+						</div><!-- /.navbar-collapse -->
+					</nav><!--/nav -->
+				</div><!--/.menubar -->
+			</div><!-- /.container -->
+
+		</section><!--/#menu-->
+		<!--menu end-->
+		
+		<!-- header-slider-area start -->
+		
+		<section class="header-slider-area" >
+			<div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+			
+			  <!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="single-slide-item slide-1">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="single-slide-item-content">
+											<p style="color:lightgray; text-transform: uppercase; margin-bottom: 10px;">Architecture is inhabited sculpture </p>
+											<p style="color:white; font-weight: 700; font-size:70px; text-transform: uppercase;">
+												The mother <br>  art is <br> Architecture 
+											</p>
+											<div style="display: none;"> <!-- HIDE SLIDE BTN-->
+											<button type="button" class="slide-btn">
+											get started
+											</button>
+											<button type="button"  class="slide-btn">
+												explore more
+											</button>
+										   </div> <!--/ hiding div-->
+
+										</div><!-- /.single-slide-item-content-->
+									</div><!-- /.col-->
+								</div><!-- /.row-->
+							</div><!-- /.container-->
+						</div><!-- /.single-slide-item-->
+					</div><!-- /.item .active-->
+					<div class="item">
+						<div class="single-slide-item slide-2">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="single-slide-item-content">
+											<p style="color:lightgray; text-transform: uppercase; margin-bottom: 10px;">Architecture is inhabited sculpture </p>
+											<p style="color:white; font-weight: 700; font-size:70px; text-transform: uppercase;">
+												The mother <br>art is <br> Architecture 
+											</p>
+											<div style="display: none;"> <!-- HIDE SLIDE BTN-->
+											<button type="button" class="slide-btn">
+											get started
+											</button>
+											<button type="button"  class="slide-btn">
+												explore more
+											</button>
+										   </div> <!--/ hiding div-->
+
+										</div><!-- /.single-slide-item-content-->
+									
+									</div><!-- /.col-->
+								</div><!-- /.row-->
+							</div><!-- /.container-->
+						</div><!-- /.single-slide-item-->
+					</div><!-- /.item .active-->
+					<div class="item">
+						<div class="single-slide-item slide-3">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="single-slide-item-content">
+											<p style="color:lightgray; text-transform: uppercase; margin-bottom: 10px;">Architecture is inhabited sculpture </p>
+											<p style="color:white; font-weight: 700; font-size:70px; text-transform: uppercase;">
+												The mother <br>  art is <br> Architecture 
+											</p>
+											<div style="display: none;"> <!-- HIDE SLIDE BTN-->
+											<button type="button" class="slide-btn">
+											get started
+											</button>
+											<button type="button"  class="slide-btn">
+												explore more
+											</button>
+										   </div> <!--/ hiding div-->
+
+										</div><!-- /.single-slide-item-content-->
+									</div><!-- /.col-->
+								</div><!-- /.row-->
+							</div><!-- /.container-->
+						</div><!-- /.single-slide-item-->
+					</div><!-- /.item .active-->
+				</div><!-- /.carousel-inner-->
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="lnr lnr-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="lnr lnr-chevron-right"></span>
+				</a>
+			</div><!-- /.carousel-->
+
+		</section><!-- /.header-slider-area-->
+		<!-- header-slider-area end -->
+		
+
+		<div class="about-us" id="about">
+			<div class="about-us-grid-item1">
+				<img alt="about-us-img" 
 				
+				src="https://brandowp.b-cdn.net/architecture/wp-content/uploads/sites/4/2016/03/architecture-img29-768x555.jpg" >
+				<div class="text-on-about-image">01</div>
+				
+			</div>
+			<div class="about-us-grid-item2" id="about-section1-right-text">
+				
+				<div class="about-heading">
+					<span style="color: crimson;"> / </span>ABOUT</div>
+				<div class="about-description" >we believe in <br>the power of <br>design the <br> Strength of Strategy. </div>
+			</div>
+			<div class="about-us-grid-item3 about-item3">
+				 <div class="tab">
+					<button class="tablinks" btnActive="true" id="btn1" >creativity</button>
+					<button class="tablinks" btnActive="false" id="btn2" >innovation</button>
+					<button class="tablinks" btnActive="false" id="btn3" >point-of-view</button>
+				  </div>
+				  
+				  <!-- Tab content -->
+				  <div id="creativity" contentActive="true" class="tabcontent">
+					<p>Creativity: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet cum quidem quisquam veritatis asperiores impedit aliquam velit voluptates ut rerum possimus ullam exercitationem, culpa odio.</p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt recusandae, explicabo quia distinctio ducimus animi ea non aperiam laborum qui mollitia cumque illum obcaecati facilis dolore, quasi adipisci, eligendi reprehenderit.</p>
+
+				  </div>
+				  
+				  <div id="innovation" contentActive="false" class="tabcontent">
+					<p>Innovation: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet cum quidem quisquam veritatis asperiores impedit aliquam velit voluptates ut rerum possimus ullam exercitationem, culpa odio.</p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt recusandae, explicabo quia distinctio ducimus animi ea non aperiam laborum qui mollitia cumque illum obcaecati facilis dolore, quasi adipisci, eligendi reprehenderit.</p>
+				  </div>
+				  
+				  <div id="point-of-view" contentActive="false" class="tabcontent">
+					<p>Point-of-view: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet cum quidem quisquam veritatis asperiores impedit aliquam velit voluptates ut rerum possimus ullam exercitationem, culpa odio.</p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt recusandae, explicabo quia distinctio ducimus animi ea non aperiam laborum qui mollitia cumque illum obcaecati facilis dolore, quasi adipisci, eligendi reprehenderit.</p>
+				 </div>
+				
+			</div>
+			<div class="about-us-grid-item4" id="about-detail" >
+				<div class="quotation-img">
+					<img src="./assets/images/about/left-quotes-sign.png" style="width:70px">
+				</div>
+				<div class="about-item4-body-text">
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit unde facere maiores ab tempore veniam omnis iste. Ad culpa necessitatibus obcaecati iste corporis sit cumque deleniti tempora ipsa fugiat iusto eaque laudantium, aspernatur rem architecto.</p>
+				</div>
+				<div class="about-item4-esign">
+					SHLOKA MUGIKURA
+				</div>
+				<div class="about-item4-firm-name">
+					MICROSOFT INC
+				</div>
+
+			</div>
+		</div>
+		
+		<!--service start-->
+		<div class="service" id="service">
+			<div class="service-grid-item1">
+				<img alt="service-img" 
+				
+				src="https://brandowp.b-cdn.net/architecture/wp-content/uploads/sites/4/2016/03/architecture-img29-768x555.jpg" >
+				<div class="text-on-service-image">02</div>
+				
+			</div>
+			<div class="service-grid-item2" id="about-section1-right-text">
+				
+				<div class="service-heading">
+					<span style="color: crimson;"> / </span>SERVICE</div>
+				<div class="service-description" > BRANDO IS ONE <br>OF THE WORLD'S <br>LEADING GLOBAL <br>Architecture <br>and DESIGN</div>
+			</div>
+			<div class="service-grid-item3 service-card">
+				<div class="service-card-header">
+					<span class="service-card-no">01.</span>
+					<span class="service-card-heading">architecture</span>
+				</div>	 
+				<div class="service-card-image">
+					<img src="./assets/images/service/architecture-card.jpeg" sizes="width:528px; height:228px;">
+				</div>
+				<div class="service-card-body">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ipsum cupiditate a? Accusamus, quae eaque adipisci eveniet. </p>
+				</div>
+				<div class="service-card-footer-bar"></div>
+			</div>
+
+			<div class="service-grid-item4 service-card" >
+				<div class="service-card-header">
+					<span class="service-card-no">02.</span>
+					<span class="service-card-heading">civil & structural</span>
+				</div>	 
+				<div class="service-card-image">
+					<img src="./assets/images/service/civil-card.jpeg" sizes="width:528px; height:228px;">
+				</div>
+				<div class="service-card-body">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ipsum cupiditate a? Accusamus, quae eaque adipisci eveniet. </p>
+				</div>
+				<div class="service-card-footer-bar"></div>
+			</div>
+			<div class="service-grid-item5 service-card">
+				<div class="service-card-header">
+					<span class="service-card-no">03.</span>
+					<span class="service-card-heading">landscape design</span>
+				</div>	 
+				<div class="service-card-image">
+					<img src="./assets/images/service/landscape-design-card.jpeg" sizes="width:528px; height:228px;">
+				</div>
+				<div class="service-card-body">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ipsum cupiditate a? Accusamus, quae eaque adipisci eveniet. </p>
+				</div>
+				<div class="service-card-footer-bar"></div>
+			</div>
+			<div class="service-grid-item6 service-card" >
+				<div class="service-card-header">
+					<span class="service-card-no">04.</span>
+					<span class="service-card-heading">urban planning</span>
+				</div>	 
+				<div class="service-card-image">
+					<img src="./assets/images/service/urban-planning-card.jpeg" sizes="width:528px; height:228px;">
+				</div>
+				<div class="service-card-body">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ipsum cupiditate a? Accusamus, quae eaque adipisci eveniet. </p>
+				</div>
+				<div class="service-card-footer-bar"></div>
+			</div>
+		</div>
+		<!--service end-->
+
+		<!--project start-->
+		<div class="project" id="project">
+			<div class="project-grid-item1">
+				<div class="text-on-project-image">03</div>
+			</div>
+			<div class="project-grid-item2" id="about-section1-right-text">
+				
+				<div class="project-heading">
+					<span style="color: crimson;"> / </span>PROJECT</div>
+				<div class="project-description" >an idea that is <br>not dangerous <br>is unworthy of <br>being called an <br>idea at all</div>
+			</div>
+			<div class="project-grid-item3">
+				<div class="project-image-wrapper">
+					<img src="../one_page_version/assets/images/project/architect-image1.jpeg" alt="archi-img1">
+					<img src="../one_page_version/assets/images/project/civil-image1.jpeg" alt="civil-img1">
+					<img src="../one_page_version/assets/images/project/landscape-design-image1.jpeg" alt="landscape-img1">
+					<img src="../one_page_version/assets/images/project/urban-planning-image1.jpeg" alt="urban-img1">
+	
+					<img src="../one_page_version/assets/images/project/architect-image2.jpeg" alt="archi-img2">
+					<img src="../one_page_version/assets/images/project/civil-image2.jpeg" alt="civil-img2">
+					<img src="../one_page_version/assets/images/project/landscape-design-image2.jpeg" alt="landscape-img2">
+					<img src="../one_page_version/assets/images/project/architect-image3.jpeg" alt="archi-img3">
+	
 				</div>
 			</div>
+			
+
+		</div>	
+
+		<!--project end-->
+
+
+		<!--People start -->
+		<div class="people" id="people">
+			<div class="people-grid-item1">
+				<img src="../one_page_version/assets/images/team/team-main-img.jpeg" alt="team-img" >
+				<div class="text-on-people-image">04</div>
+			</div>
+			<div class="people-grid-item2" id="about-section1-right-text">
+				
+				<div class="people-heading">
+					<span style="color: crimson;"> / </span>PEOPLE</div>
+				<div class="people-description" >if everyone is <br>moving forward <br>together then<br>success takes<br>care of itself</div>
+			</div>
+			<div class="people-grid-item3">
+				<div class="people-section2-wrapper">
+					<img src="./assets/images/team/team.jpeg" alt="team-member">	
+					<div class="people-single-stats-div">
+						<div class="people-single-stats-item">
+							<h1>780</h1>
+							<p>HAPPY CLIENTS</p>
+						</div>
+						<div class="people-single-stats-item">
+							<h1>987</h1>
+							<p>PROJECT COMPLETED</p>
+						</div>
+						<div class="people-single-stats-item">
+							<h1>350</h1>
+							<p>CUP OF COFFEE</p>
+						</div>
+						<div class="people-single-stats-item">
+							<h1>166</h1>
+							<p>AWARD WINNING</p>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+
+		</div>
+		
+		<!--People end-->
+	
+		<!--Recent Blog start -->
+		<div class="blog" id="blog">
+			<div class="blog-grid-item1">
+				<img src="../one_page_version/assets/images/blog/archi-desgin-banner.jpeg" alt="team-img" >
+				<div class="text-on-blog-image">05</div>
+			</div>
+			<div class="blog-grid-item2" id="about-section1-right-text">
+				
+				<div class="blog-heading">
+					<span style="color: crimson;"> / </span>RECENT BLOG</div>
+				<div class="blog-description" >there is nothing <br>wrong with<br>reading a book<br>you love over<br>and over.</div>
+			</div>
+			<div class="blog-grid-item3">
+				<div class="blog-wrapper" id="blog-1">
+					<img src="../one_page_version/assets/images/blog/blog-img-1.jpeg" alt="blog-img1" width="330px">
+					<div class="blog-detail">
+						<p class="blog-date">26 MARCH 2016</p>
+						<p class="blog-desc">architecture is the<br> art of how to waste <br> space.</p>
+						<div class="blog-footer-bar"></div>
+					</div>
+				</div>
+				<div class="blog-wrapper" id="blog-2">
+					<img src="../one_page_version/assets/images/blog/blog-img-2.jpeg" alt="blog-img2" width="330px">
+					<div class="blog-detail" >
+						<p class="blog-date">26 MARCH 2016</p>
+						<p class="blog-desc">whatever good <br> things we build end<br> up building us.</p>
+						<div class="blog-footer-bar"></div>
+					</div>
+				</div>
+				<div class="blog-wrapper" id="blog-3">
+					
+					<div class="blog-detail" >
+						<p class="blog-date">26 MARCH 2016</p>
+						<p class="blog-desc">the building's<br> identity resided in<br> the ornament.</p>
+						<div class="blog-footer-bar"></div>
+					</div>
+					<img src="../one_page_version/assets/images/blog/blog-image-3.jpeg" alt="blog-img3" width="330px">
+				</div>
+				<div class="blog-wrapper" id="blog-4">
+					
+					<div class="blog-detail">
+						<p class="blog-date">26 MARCH 2016</p>
+						<p class="blog-desc">architecture is the<br> reaching out for the <br> truth.</p>
+						<div class="blog-footer-bar"></div>
+					</div>
+					<img src="../one_page_version/assets/images/blog/blog-image-4.jpeg" alt="blog-img4" width="330px">
+				</div>
+				
+			</div>
+			<div class="blog-grid-item4">
+				<div class="blog-customer-review">
+					<img src="../one_page_version/assets/images/blog/avatar-img1.png" alt="blog-customer-img1" width="128px" height="128px">
+					<div class="review-desc">
+						<img src="../one_page_version/assets/images/blog/left-red-quote.png" width="20px" alt="blog-quote-img">
+						<p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium odio dolorum esse nemo perspiciatis at magnam libero cumque labore dignissimos.</p>
+						<p class="reviewer-name">
+							PAUL SCRIVENS
+						</p>
+						<p class="reviewer-company">
+							GOOGLE INC
+						</p>
+					</div>
+
+				</div>
+				<div class="blog-customer-review">
+					<img src="../one_page_version/assets/images/blog/avatar-img1.png" alt="blog-customer-img1" width="128px" height="128px">
+					<div class="review-desc">
+						<img src="../one_page_version/assets/images/blog/left-red-quote.png" width="20px" alt="blog-quote-img">
+						<p class="review-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium odio dolorum esse nemo perspiciatis at magnam libero cumque labore dignissimos.</p>
+						<p class="reviewer-name">
+							NATHAN FORD
+						</p>
+						<p class="reviewer-company">
+							FACEBOOK INC
+						</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="blog-grid-item5" id="blog-detail" >
+				<div class= "quotation-img">
+					<img src="./assets/images/about/left-quotes-sign.png" style="width:70px">
+				</div>
+				<div class="blog-item4-body-text">
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit unde facere maiores ab tempore veniam omnis iste. Ad culpa necessitatibus obcaecati iste corporis sit cumque deleniti tempora ipsa fugiat iusto eaque laudantium, aspernatur rem architecto.</p>
+				</div>
+				<div class="blog-item4-esign">
+					SHLOKA MUGIKURA
+				</div>
+				<div class="blog-item4-firm-name">
+					MICROSOFT INC
+				</div>
+			</div>
+			
+				
+
+		</div>
+		<!--Recent Blog end-->
+
+
+		<!--contact start-->
+		<div class="contact-us" id="contact">
+			<div class="contact-us-grid-item1">
+				<img alt="contact-us-img" 
+				
+				src="https://brandowp.b-cdn.net/architecture/wp-content/uploads/sites/4/2016/03/architecture-img29-768x555.jpg" >
+				<div class="text-on-contact-image">06</div>
+				
+			</div>
+			<div class="contact-us-grid-item2" id="contact-section1-right-text">
+				
+				<div class="contact-heading">
+					<span style="color: crimson;"> / </span> CONTACT</div>
+				<div class="contact-description" >Who you are <br> Is speaking so <br> loudly that I <br> Can't hear what<br> You're saying </div>
+			</div>
+			<form class="contact-us-grid-item3 contact-form">
+					<input type="text" name="name" id="name" placeholder="YOUR NAME" >
+					<input type="text" name="email" id="email" placeholder="YOUR EMAIL">
+					<select name="interest" id="interest" placeholder="WHAT ARE YOU INTERESTED IN">
+						<option active >WHAT ARE YOU INTERESTED IN</option>
+						<option value="Architecture">Architecture</option>
+						<option value="Civil">Civil</option>
+						<option value="Technology">Technology</option>
+						
+					</select>
+					<textarea name="message" id="message" placeholder="YOUR MESSAGE"></textarea>	
+					<input type="submit" name="submit" id="submit">
+				
+			</form>
+			<div class="contact-us-grid-item4" id="contact-detail" >
+				<div class="contact-detail-container">
+					<img src="./assets/images/contact-us/map-pin-svgrepo-com.svg" width="70px" height="100px" alt="map-pin">
+					<span class="contact-detail-text" >
+						<div class="contact-detail-text1">OUR STUDIO</div>
+						<div class="contact-detail-text2">301 THE GREENHOUSE, CUSTARD <br> FACTORY, LONDON, E2 8DY.</div>
+					</span>
+				</div>
+				<div class="contact-detail-container">
+					<img src="./assets/images/contact-us/enquiry-svg.svg" width="70px" height="100px" alt="enquiry-svg">
+					<span class="contact-detail-text" >
+						<div class="contact-detail-text1">GENERAL ENQUIRIES</div>
+						<div class="contact-detail-text2">SALES@DOMAIN.COM</div>
+					</span>
+				</div>
+				<div class="contact-detail-container">
+					<img src="./assets/images/contact-us/mobile-phone-svgrepo-com.svg" width="70px" height="100px" alt="phone-svg">
+					<span class="contact-detail-text" >
+						<div class="contact-detail-text1">CALL US TODAY!</div>
+						<div class="contact-detail-text2">+44 (0) 123 456 7890</div>
+					</span>
+				</div>
+			</div>
+		</div>
+	
+		<!--footer social media Link-->
+		<div class="footer-social-media">
+			<a class="fa fa-facebook" href="#!"></a>
+			<a class="fa fa-twitter" href="#!"></a>
+			<a class="fa fa-dribbble" href="#!"></a>
+			<a class="fa fa-youtube" href="#!"></a>
+			<a class="fa fa-linkedin" href="#!"></a>
+		</div>
+
+		<!-- footer-copyright start -->
+		<footer class="footer-copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-7" style="padding-left: 450px;">
+						<div class="foot-copyright pull-left">
+							<p>
+								&copy; All Rights Reserve
+							 	<a href="https://www.themesine.com">ThemeSINE</a>
+							</p>
+						</div><!--/.foot-copyright-->
+					</div><!--/.col-->
+				</div><!--/.row-->
+				<div id="scroll-Top">
+					<i class="fa fa-angle-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div><!--/.scroll-Top-->
+			</div><!-- /.container-->
+
+		</footer><!-- /.footer-copyright-->
+		<!-- footer-copyright end -->
+
+
+
+		<!-- Add icon library  for Social media -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- jaquery link -->
+
+		<script src="assets/js/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        
+        <!--modernizr.min.js-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		
+		<!--bootstrap.min.js-->
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+		
+		<!-- for manu -->
+		<script src="assets/js/jquery.hc-sticky.min.js" type="text/javascript"></script>
+
+		
+		<!-- vedio player js -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+		<!-- isotope js -->
+		<!-- <script src="assets/js/masonry.min.js"></script>
+		<script src="assets/js/isotop-custom.js"></script> -->
+
+        <!--owl.carousel.js-->
+        <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+		
+		<!-- counter js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		
+        <!--Custom JS-->
+        <script type="text/javascript" src="assets/js/jak-menusearch.js"></script>
+        <script type="text/javascript" src="assets/js/custom.js"></script>
+		
+		<script type="text/javascript" src="assets/js/action.js"></script>
+		
+
+
+    </body>
+	
+</html>
+
 
 
 // css
+/*==================================
+* Author        : "ThemeSine"
+* Template Name : Zombiz
+* Version       : 1.0
+==================================== */
+
+/*==================================
+
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Lato', sans-serif;
+
+==================================== */
+
+
+/*=========== TABLE OF CONTENTS ===========
+1.	Menu
+2. 	About
+3. 	Service
+4. 	Project
+5. 	Team
+6. Contact
+7.	Footer
+8.	Footer Copyright
+
+===========*/
+/*-------------------------------------
+		1.General css (Reset code)
+--------------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	font-size:14px;
+	background: #fff;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+}
+
+a,a:hover,a:active,a:focus {
+	display:inline-block;
+	text-decoration:none;
+	font-size:14px;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6 { 
+	margin: 0;
+	text-transform: capitalize;
+}
+p {
+	margin: 0;
+	font-size:14px;
+}
+img{	border:none;max-width:100%; height:auto;}
+ul{
+	padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul li {
+	list-style: none;
+	
+}
+select,input,textarea{box-shadow:none;outline:0!important;}
+
+
+html,body{
+    height: 100%;
+	position: relative;
+    z-index: 2;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  -webkit-transition: opacity 0.3s 0.3s ease; 
+  -moz-transition: opacity 0.3s 0.3s ease; 
+  -ms-transition: opacity 0.3s 0.3s ease; 
+  -o-transition: opacity 0.3s 0.3s ease; 
+  transition: opacity 0.3s 0.3s ease; 
+  opacity: 0;
+}
+
+/*=============Style css=========*/
+
+/*-------------------------------------
+		2. Header
+--------------------------------------*/
+/* .wrapper {
+    position: relative;
+    z-index: -1;
+} */
+
+.header{
+	padding-top:20px;
+	padding-bottom: 12px;
+
+}
+.header li  a{
+	color: #888;
+	outline: 0;
+}
+/* header-left  */
+.header-left li {
+    display: inline-block;
+	margin-right: 50px;
+	font-size:16px;
+	font-family: 'Poppins', sans-serif;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+	
+}
+.header-left li  i{
+	margin-right:7px;
+	color: #888;
+}
+.header-left li :hover {
+	color: #7370d8;
+}/* header-left  */
+
+/* header-right */
+.header-right {
+	color: #888;
+	font-family: 'Poppins', sans-serif;
+	
+}
+.header-right li {
+	display:inline-block;
+}
+.header-right li a{
+	font-size:16px;
+	font-family: 'Poppins', sans-serif;
+	padding-bottom: 7px;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+	
+}
+.header-right li a:hover{
+	color:#7370d8;
+}
+.reg a {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* social-icon */
+.social-icon{
+	margin-left:6px;
+	top:0;
+	right:0;
+}
+.social-icon li a {
+    margin-left:14px;
+}/* social-icon */
+
+/* header-right */
+
+/* modal 
+--------------------*/
+.modal-header {
+    border-bottom: none;
+}
+.modal-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #eb1b33;
+}
+.lg-frm button,
+.sm-frm button {
+    margin-top: 25px;
+    background: transparent;
+    border-color: #eb1b33;
+    color: #eb1b33;	
+}
+/*-------------------------------------
+		3. Menu
+--------------------------------------*/
+
+#menu{
+	z-index: 999;
+}
+/* Menu Icon*/
+.menu-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+}
+.menu-icon-items {
+    background-color: white;
+    height: 5px;
+
+    margin:1px;
+}
+
+/* .menu-button {
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+    width: 36px;
+    height: 33px;
+    border: none;
+    text-indent: -9999px;
+    color: transparent;
+    margin-top: 30px;
+    background:white;
+} */
+
+/* navbar-brand */
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus{
+	margin-top: 33px;
+	padding:0;
+}  /* navbar-brand */
+
+/* wrapper-sticky */
+.wrapper-sticky{
+	position: relative;
+	display: inline-block;
+	/* background: rgba(115,112,216,1); */
+}
+
+/* sticky */
+.sticky{
+	background: rgba(115,112,216,1);
+	padding: 10px 0px 0px;
+	height:80px;
+	color: #fff;
+}
+
+.sticky  .navbar-brand{
+	margin-top:20px;
+}
+.sticky  .navbar-default .navbar-nav li a,
+.sticky  .navbar-default .navbar-nav li a:active,
+.sticky  .navbar-default .navbar-nav li a:focus,
+.sticky  .navbar-default .navbar-nav li a:hover{
+	color: #fff;
+	margin: 0px 0px;
+}
+.sticky .navbar-default .navbar-toggle ,
+.sticky .navbar-default .navbar-toggle:focus,
+.sticky .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border: 1px solid #000;
+    margin-top: 15px;
+}/* sticky */
+
+/* wrapper-sticky */
+
+/* navbar-default */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav li a{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	margin-top:18px;
+	padding-left: 27px;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+.navbar-default.navbar-nav li a:active,
+.navbar-default.navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover{
+	color: #fff;
+	outline: 0;
+	font-weight:700;
+	margin-top:18px;
+	padding-bottom: 25px;
+	padding-left: 27px;
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:active,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+	background:transparent;
+    color: #fff;
+	font-weight:700;
+	font-family: 'Lato', sans-serif;
+	margin-top:18px;
+	padding-bottom: 25px;
+	padding-left: 27px;
+}/* navbar-default */
+
+/* navbar-toggle*/
+.navbar-default .navbar-toggle ,
+.navbar-default .navbar-toggle:focus,
+ .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border: 1px solid #000;
+    margin-top: 25px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+
+}/* navbar-toggle*/
+
+/* .search */
+.sticky .search span {
+	top:16px;
+}
+.sticky .search input {
+	top:40px;
+}
+
+
+.search span {
+    position: absolute;
+    right: -17px;
+    top:35px;
+    cursor: pointer;
+    z-index: 1;
+    color: #fff;
+}
+.search input {
+    position: absolute;
+    top:60px;
+    right: -17px;
+    width: 15px;
+    height: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding:20px;
+    border: 1px solid #ccc;
+    z-index: 1;
+    opacity:0;
+}
+.search input.active{
+	border-radius: 0 4px;
+}/* .search */
+
+/*-------------------------------------
+		4. Slider
+--------------------------------------*/
+.header-slider-area {
+    position: relative;
+    z-index: 1;
+}
+/* .single-slide-item */
+.single-slide-item {
+    padding-top: 184px;
+    padding-bottom:294px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.single-slide-item h2 {
+	color:#fff;
+	font-size:70px;
+	font-weight:500;
+	line-height: 1.28;
+	margin-bottom: 27px;
+	font-family: 'Playfair Display', serif;
+	text-transform: capitalize;
+}
+.single-slide-item p {
+	color:#fefefe;
+	font-size:24px;
+	max-width:805px;
+	font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+	margin-bottom:51px;
+}
+.single-slide-item button.slide-btn,
+.single-slide-item  button:active .slide-btn ,
+.single-slide-item button:focus .slide-btn{
+	display: inline-block;
+    background: #f5f5fb;
+    padding: 17px 50px;
+    color: #5549af;
+    border: 1px solid #f5f5fb;
+	font-size:16px;
+	font-weight:600;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin-right: 36px;
+	margin-bottom: 30px;
+	outline:0;
+	box-shadow:none;
+	-webkit-transition:.5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+
+.single-slide-item  button.slide-btn:hover{
+	 background: transparent;
+	 color: #fff;
+	 border: 1px solid #fff;
+}
+.single-slide-item.slide-1 {
+	background-image:url(../../assets/images/banner/architecture-img11.jpg);
+	position:relative;
+	z-index:1;
+}
+.single-slide-item.slide-2 {
+	background-image:url(../../assets/images/banner/architecture-img2.jpg);
+	position:relative;
+	z-index:1;
+}
+.single-slide-item.slide-3 {
+	background-image:url(../../assets/images/banner/architecture-img3.jpg);
+	position:relative;
+	z-index:1;
+}
+.single-slide-item.slide-1:before,.single-slide-item.slide-2:before,.single-slide-item.slide-3:before{
+	background:rgba(115,112,215,.6);
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	content:'';
+	z-index:-1;
+}
+.single-slide-item-img img{
+	width:auto;
+	height:705px;
+}
+/* .single-slide-item */
+
+
+/* .carousel-indicators */
+.carousel-indicators {
+    bottom: 40px;
+    display: none;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 12px 10px 0 0;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fefefe;
+    border: 1px solid #fefefe;
+    border-radius: 10px;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin:12px 10px 0 0;
+    background-color: #f7b405;
+	border:1px solid #f7b405;
+}
+/* .carousel-indicators */
+
+/* .carousel-control */
+.carousel-control {
+	position:absolute;
+	width:75px;
+	height:75px;
+	line-height:75px;
+	text-align:center;
+	top:39.5%;
+	left:20px;
+	background:transparent;
+	color:#fff;
+	font-size: 22px;
+	font-weight:700;
+	font-family: 'Lato', sans-serif;
+	border-radius: 50%;
+	-webkit-transition:.5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+.carousel-control:hover {
+	background: #fff;
+	color:#6967d1;
+	font-size: 22px;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0%);
+}
+/* .carousel-control */
+
+/* .carousel-fade */
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+/*-------------------------------------
+		4. We-do
+--------------------------------------*/
+.we-do{
+	padding: 115px 0 82px;
+}
+
+/* section-header */
+.section-header h2{
+	color: #44454f;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+.section-header h2 span{
+	color: #4d4e54;
+}
+.section-header p{
+	color: #888;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 32px;
+    line-height: 1.8;
+}/* section-header */
+
+
+/*single-we-do-box */
+.we-do-carousel {
+    padding-top: 60px;
+}
+.we-do-description {
+    padding: 55px 0 70px;
+}
+.single-we-do-box  {
+    box-shadow:0 0 5px rgba(35,37,41,.1);
+	overflow-x:hidden;
+	margin-top: 15px;
+	opacity:1;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+
+/*we-do-description*/
+.single-we-do-box{
+	background:#fff;
+	min-height: 345px
+}
+/* we-do-info */
+.we-do-info {
+	font-family: 'Playfair Display', serif;
+	text-transform: capitalize;
+}
+.we-do-img {
+    margin-right: 5px;
+	border-radius:50%;
+	-webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+.we-do-topics {
+    margin-top: 32px;
+    margin-bottom: 27px;
+}
+.we-do-topics h2 a{
+	color:#44454f;
+	font-size:20px;
+}/* we-do-info */
+
+
+/* we-do-comment */
+.we-do-comment {
+    margin-top: 14px;
+}
+.we-do-comment p{
+	color:#888;
+	font-size:16px;
+    font-family: 'Poppins', sans-serif;
+	max-width: 306px;
+	margin: 0 auto;
+}/* we-do-comment */
+
+
+/*we-do-description*/
+.single-we-do-box:hover{
+	box-shadow:0 5px 20px rgba(112,134,230,.2);
+	opacity:1;
+}
+
+/*owl carousel*/
+.owl-carousel .owl-stage {
+    position: relative;
+    padding-top: 26px;
+	padding-bottom: 40px;
+}
+
+/*-------------------------------------
+		2. About-us
+--------------------------------------*/
+
+.about-us{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+.about-us-grid-item1{
+	grid-row:1/2 ;
+	grid-column: 1/2;
+	position: relative;
+}
+.about-us-grid-item2{
+	grid-row:1/2 ;
+	grid-column: 2/3;
+}
+.about-us-grid-item3{
+	grid-row:2/3 ;
+	grid-column: 1/2;
+
+}
+.about-us-grid-item4{
+	grid-row:2/3 ;
+	grid-column: 2/3;
+}
+.about-us-section1 {
+	display: inline-flex;
+}
+.about-us-section2 {
+	display: inline-flex;
+}
+.about-section1-container{
+	position: relative;
+}
+.text-on-about-image{
+		position: absolute;
+		left: 620px;
+		top: 80px;
+		font-weight: 800;
+		font-size: 100px;
+		color: white;
+}
+#about-section1-right-text{
+	margin-left: 80px;
+	margin-top: 130px;
+
+}
+.about-heading{
+	font-size: 30px;
+	font-weight: 700;
+}
+.about-description{
+	font-weight: 700;
+    margin-top: 100px;
+    font-size: 30px;
+    color: lightgray;
+    text-transform: uppercase;
+
+}
+.about-item3{
+	padding: 120px;
+}
+.tab{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+[btnActive=true]{
+	border-bottom: 2px solid red;
+}
+[contentActive=true]{
+	display: block;
+}
+.tab button{
+	background:none;
+	border-style: none;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	
+}
+.tab button.active{
+	border-bottom: orangered;
+}
+.tab button:hover{
+	opacity: .6;
+}
+.tabcontent{
+	display: none;
+	margin-top: 50px;
+}
+.tabcontent p{
+	margin: 10px;
+}
+.content-active{
+	display: none;
+}
+
+#about-detail{
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
+	justify-content: center;
+    background-color: #e31d3b;
+	color: white;
+
+}
+/* .quotation-img{
+} */
+.about-item4-body-text{
+	margin-top: 50px;
+}
+.about-item4-body-text p{
+	font-size: 1.2em;
+	margin-right: 50px;
+	
+}
+.about-item4-esign{
+	margin-top: 80px;
+}
+.about-item4-firm-name{
+	color:black;
+}
+/*-------------------------------------
+		3. service
+--------------------------------------*/
+.service{
+	display: grid;
+	grid-template-rows: 2fr 2fr;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	row-gap: 80px;
+	
+}
+.service-grid-item1{
+	grid-row:1/2 ;
+	grid-column: 1/3;
+	position: relative;
+}
+.service-grid-item2{
+	grid-row:1/2 ;
+	grid-column: 3/5;
+}
+.service-grid-item3{
+	grid-row:2/3 ;
+	grid-column: 1/2;
+	justify-self: center;
+}
+.service-grid-item4{
+	grid-row:2/3;
+	grid-column: 2/3;
+	justify-self: center;
+}
+.service-grid-item5{
+	grid-row:2/3 ;
+	grid-column: 3/4;
+	justify-self: center;
+}
+.service-grid-item6{
+	grid-row:2/3 ;
+	grid-column: 4/5;
+	justify-self: center;
+}
+.text-on-service-image{
+		position: absolute;
+		left: 620px;
+		top: 80px;
+		font-weight: 800;
+		font-size: 100px;
+		color: white;
+}
+#service-section1-right-text{
+	margin-left: 80px;
+	margin-top: 130px;
+
+}
+.service-heading{
+	font-size: 30px;
+	font-weight: 700;
+}
+.service-description{
+	font-weight: 700;
+    margin-top: 100px;
+    font-size: 30px;
+    color: lightgray;
+    text-transform: uppercase;
+
+}
+.service-card{
+	display: flex;
+	flex-direction: column;
+	padding: 2px;
+	width: 250px;
+	height: 400px;
+	/* background-color: lightcyan; */
+}
+.service-card-header{
+	margin: 10px;
+}
+.service-card-no{
+	color: crimson;
+	font-weight: bold;
+	
+}
+.service-card-heading{
+	 text-transform: uppercase;
+	 font-weight: bold;
+	 margin-left: 10px;
+}
+.service-card-image{
+
+}
+.service-card-body{
+	margin-top: 20px;
+}
+.service-card-footer-bar{
+	margin-top:30px ;
+	height: 2px;
+	background-color: crimson;
+	width: 30px;
+}
+/*-------------------------------------
+		4. Project	
+--------------------------------------*/
+.project{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns:1fr 1fr;
+	/* row-gap: 80px; */
+	
+}
+.project-grid-item1{
+	grid-row:1/2 ;
+	grid-column: 1/2;
+	position: relative;
+	background-color: #e31d3b;
+}
+.project-grid-item2{
+	grid-row:1/2 ;
+	grid-column: 2/3;
+}
+.project-grid-item3{
+	grid-row:2/3 ;
+	grid-column: 1/3;
+}
+.text-on-project-image{
+	position: absolute;
+	left: 620px;
+	top: 80px;
+	font-weight: 800;
+	font-size: 100px;
+	color: white;
+}
+#project-section1-right-text{
+margin-left: 80px;
+margin-top: 130px;
+
+}
+.project-heading{
+font-size: 30px;
+font-weight: 700;
+}
+.project-description{
+font-weight: 700;
+margin-top: 100px;
+font-size: 30px;
+color: lightgray;
+text-transform: uppercase;
+
+}
+.project-image-wrapper{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap ;
+
+}
+.project-image-wrapper img{
+	width:360px;
+	height: 260px;
+}
+/*-------------------------------------
+		4. People
+--------------------------------------*/
+.people{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns:1fr 1fr;
+	/* row-gap: 80px; */
+	
+}
+.people-grid-item1{
+	grid-row:1/2 ;
+	grid-column: 1/2;
+	position: relative;
+}
+.people-grid-item2{
+	grid-row:1/2 ;
+	grid-column: 2/3;
+}
+.people-grid-item3{
+	grid-row:2/3 ;
+	grid-column: 1/3;
+}
+.text-on-people-image{
+	position: absolute;
+	left: 620px;
+	top: 80px;
+	font-weight: 800;
+	font-size: 100px;
+	color: white;
+}
+#people-section1-right-text{
+margin-left: 80px;
+margin-top: 130px;
+
+}
+.people-heading{
+font-size: 30px;
+font-weight: 700;
+}
+.people-description{
+font-weight: 700;
+margin-top: 100px;
+font-size: 30px;
+color: lightgray;
+text-transform: uppercase;
+
+}
 .people-section2-wrapper{
 	/* background-color: coral; */
 	display: flex;
@@ -40,3 +1777,579 @@
 }
 
 
+/*-------------------------------------
+		5. Recent Blog
+--------------------------------------*/
+.blog{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns:1fr 1fr;
+	/* row-gap: 80px; */
+	
+}
+.blog-grid-item1{
+	grid-row:1/2 ;
+	grid-column: 1/2;
+	position: relative;
+}
+.blog-grid-item2{
+	grid-row:1/2 ;
+	grid-column: 2/3;
+}
+.blog-grid-item3{
+	grid-row:2/3 ;
+	grid-column: 1/3;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.blog-grid-item4{
+	grid-row:3/4 ;
+	grid-column: 1/2;
+	/* background-color: darkgoldenrod; */
+	display: flex;
+	flex-direction: column;
+	padding: 20px 60px;
+	justify-content: space-evenly;
+}
+.blog-grid-item5{
+	grid-row:3/4 ;
+	grid-column: 2/3;
+}
+.text-on-blog-image{
+	position: absolute;
+	left: 620px;
+	top: 80px;
+	font-weight: 800;
+	font-size: 100px;
+	color: white;
+}
+#blog-section1-right-text{
+margin-left: 80px;
+margin-top: 130px;
+
+}
+.blog-heading{
+font-size: 30px;
+font-weight: 700;
+}
+.blog-description{
+font-weight: 700;
+margin-top: 100px;
+font-size: 30px;
+color: lightgray;
+text-transform: uppercase;
+
+}
+.blog-wrapper{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	height: 260px;
+    width: 660px;
+
+}
+#blog-1{
+	margin-left: 60px;
+}
+#blog-2{
+	margin-right: 60px;
+}
+#blog-3{
+	margin-left: 60px;
+}
+#blog-4{
+	margin-right: 60px;
+}
+.blog-detail{
+	width: inherit;
+    padding: 70px 30px;
+
+}
+.blog-date{
+	font-size: .8em;
+    color: gray;
+}
+.blog-desc{
+	text-transform: uppercase;
+	margin: 30px auto;
+}
+
+.blog-footer-bar{
+	height: 3px;
+	background-color: crimson;
+	width: 25px;
+}
+
+/* Item4 */
+.blog-customer-review{
+	display: flex;
+	flex-direction: row;
+
+}
+.review-desc{
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+}
+.review-text{
+	margin: 20px 0;
+	width: 420px;
+}
+.reviewer-name{
+	margin: 10px 0 ;
+}
+.reviewer-company{
+	color:gray;
+	font-size: .8em;
+}
+
+#blog-detail{
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
+	justify-content: center;
+    background-color: #e31d3b;
+	color: white;
+
+}
+/* .quotation-img{
+
+
+} */
+.blog-item4-body-text{
+	margin-top: 50px;
+}
+.blog-item4-body-text p{
+	font-size: 1.2em;
+	margin-right: 50px;
+	
+}
+.blog-item4-esign{
+	margin-top: 80px;
+}
+.blog-item4-firm-name{
+	color:black;
+}
+
+/*-------------------------------------
+		11.	Testemonial 
+--------------------------------------*/
+
+.testemonial{
+	position:relative;
+	background: #f9faff;
+	padding-top: 116px;
+}
+
+/*testemonial-carousel*/
+.home1-testm.item {
+    padding-top: 49px;
+}
+.testemonial .owl-carousel .owl-item img {
+    display: inline-block;
+    width:100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    border: 2px solid #7370d8;
+}
+.testemonial .owl-theme .owl-nav.disabled+.owl-dots {
+    padding-bottom: 110px;
+    margin-top: 5px;
+}
+.testemonial .owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    margin: 5px 3px;
+    border-radius:50%;
+    background: transparent;
+    border: 2px solid #dfdeff;	
+}
+.testemonial .owl-theme .owl-dots .owl-dot.active span{
+    background: #7370d8;
+    border: 2px solid #7370d8;
+}
+
+/*home1-testm-txt*/
+.home1-testm-txt {
+    padding-top: 50px;
+}
+.home1-testm-txt p{
+	color: #888;
+	font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.5px;
+    padding: 15px 0 30px;
+}
+.home1-testm-txt h3 a{
+	color: #7370d8;
+	font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.home1-testm-txt h4{
+	color: #888;
+	font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 14px 0 0px;
+}
+.home1-testm-txt span {
+    color: #c3c3ef;
+    font-size: 40px;
+}/*home1-testm-txt*/
+
+/*testemonial-carousel*/
+
+/*-------------------------------------
+		12. Client
+--------------------------------------*/
+.clients{
+	background: #7370d8;
+	padding: 53px 0 0px;
+}
+.clients-area {
+    padding: 33px 0 59px;
+	position:relative;
+}
+.clients-area .item {
+    padding: 0 13px 2px;
+}
+
+.clients .clients-area .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+	border-radius:0;
+}
+
+
+
+/*-------------------------------------
+		13. Latest News
+--------------------------------------*/
+.news{
+	padding: 114px 0 95px;
+}
+.news-card {
+    margin-top: 70px;
+}
+.news-card-pb-25{
+	padding-bottom: 25px;
+}
+/*single-news-box*/
+.single-news-box{
+	box-shadow:0 5px 30px 0px rgba(115,112,215,.2);
+	min-height: 504px;
+	margin-bottom: 13px;
+	-webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+
+}
+.single-news-box.news-mb-20{
+	margin-bottom:20px;
+}/*single-news-box*/
+
+/*news-box-bg*/
+.news-box-bg {
+	position: relative;
+	overflow: hidden;
+	-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1); 
+	-webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.single-news-box:hover .isotope-overlay{
+	-webkit-transform:scaleY(1);
+    -moz-transform:scaleY(1);
+    -ms-transform:scaleY(1);
+    -o-transform:scaleY(1);
+    transform:scaleY(1);
+	top:0;
+}/*news-box-bg*/
+
+/*news-box-inner*/
+.news-box-inner{
+	padding: 30px 0px 30px 20px;
+	-webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.news-box-inner h3 a{
+	color: #4d4e54;
+    display:block;
+    font-size:16px;
+	margin-bottom: 17px;
+	font-family: 'Playfair Display', serif;
+	font-style: italic ;
+	max-width: 350px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+.news-box-inner .team-meta{
+	display:block;
+	color:#4d4e54;
+	font-size:12px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.news-box-inner span{
+	color:#908edf;
+
+}
+a.learn-btn,
+a:hover.learn-btn,
+a:focus.learn-btn,
+a:active.learn-btn{
+    color: #7086e6;
+    font-size:12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 8px;
+    padding-bottom: 18px;
+    opacity:0;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.single-news-box:hover .news-box-inner {
+	background: #f9faff;
+	
+}/*team-box-inner*/
+.single-news-box:hover{
+	box-shadow:0 5px 35px 0px rgba(92, 91, 107, 0.2);
+}
+.single-news-box:hover .news-box-bg{
+	-webkit-transform:scaleY(1.05);
+    -moz-transform:scaleY(1.05);
+    -ms-transform:scaleY(1.05);
+    -o-transform:scaleY(1.05);
+    transform:scaleY(1.05);
+}
+
+
+/*-------------------------------------
+		14. Contact
+--------------------------------------*/
+.contact-us{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+.contact-us-grid-item1{
+	grid-row:1/2 ;
+	grid-column: 1/2;
+	position: relative;
+}
+.contact-us-grid-item2{
+	grid-row:1/2 ;
+	grid-column: 2/3;
+}
+.contact-us-grid-item3{
+	grid-row:2/3 ;
+	grid-column: 1/2;
+}
+.contact-us-grid-item4{
+	grid-row:2/3 ;
+	grid-column: 2/3;
+}
+.contact-us-section1 {
+	display: inline-flex;
+}
+.contact-us-section2 {
+	display: inline-flex;
+}
+.contact-section1-container{
+	position: relative;
+}
+.text-on-contact-image{
+		position: absolute;
+		left: 620px;
+		top: 80px;
+		font-weight: 800;
+		font-size: 100px;
+		color: white;
+}
+#contact-section1-right-text{
+	margin-left: 80px;
+	margin-top: 130px;
+
+}
+.contact-heading{
+	font-size: 30px;
+	font-weight: 700;
+	
+
+}
+.contact-description{
+	font-weight: 700;
+    margin-top: 100px;
+    font-size: 30px;
+    color: lightgray;
+    text-transform: uppercase;
+
+}
+.contact-form{
+	display: flex;
+	flex-direction: column;
+	width:60%;
+	justify-self: center;
+	align-self: center;
+}
+input[type=text],select{
+	height: 50px;
+	border:2px solid lightgray;
+    margin-bottom: 25px;
+}
+textarea{
+	height: 100px;
+    border: 2px solid lightgray;
+    margin-bottom: 25px;
+}
+input[type=submit]{
+	height: 50px;
+	width: 25%;
+	color: white;
+	background-color: black;
+	border:2px solid lightgray;
+}
+#contact-detail{
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
+	justify-content: center;
+    background-color: #e31d3b;
+	color: white;
+
+}
+.contact-detail-container{
+	display: flex;
+	margin-right: 150px;
+	margin-bottom: 40px;
+}
+.contact-detail-text{
+	margin-left: 40px;	
+}
+.contact-detail-text1{
+	font-size: 1.5em;
+    font-weight: 700;
+}
+.contact-detail-text2{
+	margin-top: 8px;
+	font-weight: 500;
+	font-size: 1.2em;
+
+}
+
+
+/*-------------------------------------
+		16. Footer
+--------------------------------------*/
+.footer-social-media{
+	margin-top: 150px;
+	height: 150px;
+	border-top: 1px solid lightgray;
+	border-bottom: 2px solid lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa{
+	width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 12px;
+	text-decoration: none;
+	margin:10px;
+}
+.fa:hover{
+	opacity: .7;
+	
+}
+.fa-facebook{
+	color:white;
+	background: #3B5998;
+}
+.fa-twitter{
+	background: #55ACEE;
+	color: white;
+  }
+  .fa-dribbble{
+	background: #ea4c89;
+	color: white;
+  }
+  .fa-youtube{
+	background: #bb0000;
+	color: white;
+  }
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  
+
+
+
+
+/*-------------------------------------
+		17. Footer- copyright
+--------------------------------------*/
+.footer-copyright {
+	padding: 30px 0 30px;
+}
+.foot-copyright{
+	color:#8b8b8b;
+	font-size:16px;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*===============================
+    Scroll Top
+===============================*/
+#scroll-Top  .return-to-top {
+	position: fixed;
+    right: 30px;
+    bottom: 10px;
+    display: none;
+    width: 30px;
+    line-height: 5px;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 15;
+    color: #fff;
+    background: black;
+    border-radius: 5px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    z-index: 2;
+
+}
+#scroll-Top  .return-to-top:hover {
+    background:black;
+    color: #fff;
+	border-radius:50%;
+}
+
+/*========================Thank you=================

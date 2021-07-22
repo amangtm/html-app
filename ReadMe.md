@@ -8,5 +8,5 @@ Website- https://brando.themezaa.com/architecture/
 Chosen Template-
 [Zombie](https://demos.onepagelove.com/html/zombiz/)
 
-
+Not functional- (Menu icon at Homepage and horizontal slider in About section)
 
